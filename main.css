@@ -1,0 +1,45 @@
+body{
+    background-color: #333333;
+    color: #ffffff;
+}
+
+.navbar{
+    border-bottom: #17A2B8 3px solid;
+    opacity: .9;
+}
+
+#home-section{
+    background: url('./img/bg.jpg') no-repeat;
+    min-height: 100vh;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.dark-overlay{
+    background-color: rgba(0, 0, 0, .7);
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.home-inner{
+    padding-top: 150px;
+}
+
+.img-certificate{
+    max-height: 55vh;
+}
+
+@media (max-width: 992px) {
+    .home-inner{
+        padding-top: 100px;
+    }
+}
+
+@media (max-width: 575px) {
+    .home-inner{
+        padding-top: 80px;
+    }
+}
