@@ -43,3 +43,15 @@ body{
         padding-top: 80px;
     }
 }
+
+@media screen and (max-width: 700px){
+    .hide-on-sm-portrait{
+        display:none !important;
+    }
+    .show-on-sm-portrait{
+        display: block !important;
+    }
+    .home-inner{
+        padding-top: 75px;
+    }
+ }
